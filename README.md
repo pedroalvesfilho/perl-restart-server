@@ -5,11 +5,17 @@ Restart server if
 
 
 Creating respository to host perl program.
+
 echo "# perl-restart-server" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/pedroalvesfilho/perl-restart-server.git
+
 git push -u origin master
 
 
